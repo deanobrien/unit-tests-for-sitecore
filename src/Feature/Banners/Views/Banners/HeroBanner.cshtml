@@ -1,0 +1,7 @@
+﻿@model HeroBannerRenderingModel
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p>[@Model.Rendering.RenderingItem.Name]</p>
+}
+
+<div class="hero-image" @Model.BannerStyleString></div>

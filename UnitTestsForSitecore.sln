@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeanObrien.Feature.Banners", "src\Feature\Banners\DeanObrien.Feature.Banners.csproj", "{C9032202-C4FD-4EC3-A76C-6F337D217FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeanOBrien.Feature.Banners.MSTests", "src\Feature\Banners\Tests\MSTest\DeanOBrien.Feature.Banners.MSTests.csproj", "{51F8CB4E-B855-4613-974B-64ED914C75AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeanOBrien.Feature.Banners.XUnitTests", "src\Feature\Banners\Tests\XUnit\DeanOBrien.Feature.Banners.XUnitTests.csproj", "{7FCB4482-E54E-4660-BE5A-426EB4AD9A32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9032202-C4FD-4EC3-A76C-6F337D217FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9032202-C4FD-4EC3-A76C-6F337D217FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9032202-C4FD-4EC3-A76C-6F337D217FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9032202-C4FD-4EC3-A76C-6F337D217FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F8CB4E-B855-4613-974B-64ED914C75AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F8CB4E-B855-4613-974B-64ED914C75AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F8CB4E-B855-4613-974B-64ED914C75AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F8CB4E-B855-4613-974B-64ED914C75AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCB4482-E54E-4660-BE5A-426EB4AD9A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCB4482-E54E-4660-BE5A-426EB4AD9A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCB4482-E54E-4660-BE5A-426EB4AD9A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCB4482-E54E-4660-BE5A-426EB4AD9A32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {805CA59C-36E0-4EC3-8B26-4ED859F9B837}
+	EndGlobalSection
+EndGlobal
