@@ -1,3 +1,4 @@
+![Unit Testing for Sitecore](https://deanobrien.uk/wp-content/uploads/2022/01/Unit-Testing.jpg)
 ## Unit Tests for Sitecore
 This is a demo project that showcases some approaches to unit testing for sitecore projects. Inspiration for alot of it came from reading the CodefLood blog on unit testing here: https://www.codeflood.net/blog/2020/05/17/logicless-view-itemless-model/
 
